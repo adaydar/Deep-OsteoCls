@@ -2,7 +2,7 @@ This repo contains the Official Pytorch implementation of our work:
 
 DeepOsteoCls:Deep Learning-Based Framework for Knee Osteoarthritis Classification With Qualitative Explanations from Radiographs and MRI Volumes (under Review at Biomedical Signal Processing and Control)
 
-![DeepOsteoCls_architecture](./DeepOsteoCls.png) Schematic of DeepOsteoCls framework and its components;(a) feature extraction block and classifier,(b) proposed OAED (Osteoarthritis Edge Detection module), (c) GAP (Global average pooling) module [26], (d) transformer encoder [27], (e) The MRI slice preprocessing module, (b) feature extraction block and classifier,
+![DeepOsteoCls_architecture](./DeepOsteoCls.png) Figure: Schematic of DeepOsteoCls framework and its components;(a) feature extraction block and classifier,(b) proposed OAED (Osteoarthritis Edge Detection module), (c) GAP (Global average pooling) module [26], (d) transformer encoder [27], (e) The MRI slice preprocessing module, (b) feature extraction block and classifier,
 (f) MRI postprocessing module/ Domain Knowledge Transfer and Entropy Regularization (DoKTER) training scheme, (g) Multi-Resolution Attentive-Unet (MtRA-Unet)[28] model for segmentation of femoral cartilages,
 (i) the Region of Interest (ROI) in knee MRI, and (j) proposed Multi-Resolution Feature Integration (MRFI) module.
 
