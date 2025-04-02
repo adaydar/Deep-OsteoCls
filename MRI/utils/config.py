@@ -47,8 +47,8 @@ class CONFIG():
 
   num_classes = 2
 
-  batch_size_train = 2
-  batch_size_val = 2
+  batch_size_train = 36
+  batch_size_val = 36
 
   max_epochs = 30
   lr = 5e-4
