@@ -80,6 +80,8 @@ def weighted_loss(outputs, labels, args):
 
     return loss
 
+loss_function = torch.nn.CrossEntropyLoss(weight=None) 
+
 #Scheduler
 
 class LRScheduler():
